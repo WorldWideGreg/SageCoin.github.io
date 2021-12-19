@@ -116,12 +116,12 @@ div.item h2 {
     padding-bottom: 5px;
     background-color: whitesmoke;
     padding: 0px 8px 8px 8px;
-    box-shadow: 0px 3px 3px 3px #00000054;
+    box-shadow: 0px 1px 1px 1px #00000054;
     overflow: visible;
 }
 button {
  background-color: whitesmoke;
- box-shadow: 0px 3px 3px 3px #00000054;
+ box-shadow: 0px 1px 1px 1px #00000054;
  overflow: visible;
 
 }
