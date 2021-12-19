@@ -90,13 +90,31 @@ img.info {
     min-height: 200px;
     background-color: blanchedalmond;
 }
-div.colonne {
+div.container {
     width: 100%;
     margin-top: 20px;
-
+    display: flex;
+    align-items: center;
 }
-
-div.colonne h2 {
+div.col {
+    width: 100%;
+    margin-top: 20px;
+    display: inline-block;
+}
+div.item {
+    width: 33%;  
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+div.item h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 2px solid #6c829dC0;
+    padding-bottom: 5px;
+}
+div.col h2 {
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;
